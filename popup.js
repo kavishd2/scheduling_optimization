@@ -268,7 +268,7 @@ function downloadICS(events) {
 
 function optimizeSchedule() {
     let selected = [];
-    const orgBoxes = document.querySelectorAll(".org-checkbox:checked");
+    const orgBoxes = documgit cent.querySelectorAll(".org-checkbox:checked");
     orgBoxes.forEach(box => selected.push(box.value));
 
     if (selected.length === 0) {
